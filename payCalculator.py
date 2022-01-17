@@ -5,7 +5,7 @@ def calculatePay():
     hrs = input("Enter Hours: ")
     rate = input("Enter Rate: ")
 
-    grossPay = int(hrs) * float(rate)
+    grossPay = float(hrs) * float(rate)
 
     print(grossPay)
     
@@ -15,4 +15,4 @@ def calculatePay():
 ## uncomment calculatePay() and run > python payCalculator.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-##calculatePay()
+calculatePay()
