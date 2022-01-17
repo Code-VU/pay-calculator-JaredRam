@@ -5,7 +5,7 @@ def calculatePay():
     hrs = input("Enter Hours: ")
     rate = input("Enter Rate: ")
 
-    grossPay = float(hrs) * float(rate)
+    grossPay = int(hrs) * int(rate)
 
     print(grossPay)
     
